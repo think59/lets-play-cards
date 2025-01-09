@@ -16,7 +16,7 @@ class Card:
     def __str__(self):
         """
         Return a human-readable string representation of the card.
-        Example: 'A of Hearts'
+        Example: 'Ace of Hearts'
         """
         return f"{self.rank} of {self.suit}"
 
